@@ -16,7 +16,7 @@ my_args: dict = get_params_sys_args(['--text='])
 # validate your arguments as you wish
 try:
     text1 = my_args['--text=']
-except IndexError:
+except KeyError:
     raise ValueError('argumets --text= empty')
 
 print(text1)

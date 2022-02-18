@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 with open('README.md', 'rb') as f:
     readme = f.read().decode('utf-8')
 
-package = 'friendly-arguments'
+package = 'friendly_arguments'
 with open(os.path.join(package, '__init__.py'), 'rb') as f:
     init_py = f.read().decode('utf-8')
 
