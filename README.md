@@ -21,7 +21,7 @@ except KeyError:
 
 print(text1)
 ````
-
+ 
 **RUN** on terminal
 ```shell
 python test_args.py --text=hello_world
