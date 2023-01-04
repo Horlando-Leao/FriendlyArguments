@@ -20,6 +20,13 @@ except KeyError:
     raise ValueError('argumets --text= empty')
 
 print(text1)
+
+# OR
+
+text1 = my_args.get('--text=')
+if text1 is None:
+    raise ValueError('argumets --text= empty')
+
 ````
  
 **RUN** on terminal
