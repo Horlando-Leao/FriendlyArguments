@@ -2,6 +2,9 @@
 
 This python package makes it easy to use command line argument
 
+## Install
+```pip install friendly-arguments``` 
+
 ## Example
 
 **CODE** file: test_args.py 
